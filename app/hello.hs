@@ -5,7 +5,7 @@ myHtml :: String
 myHtml = makeHtml "My page title" "My page content"
 
 makeHtml :: String -> String -> String
-makeHtml title content = html_ (head_ (title_ title) <> body_ content)
+makeHtml title content = html_ (head_ (title_ title) <> body_ (h1_ "Hello" <> p_ "world!"))
 
 el :: String -> String -> String
 el tag content =
