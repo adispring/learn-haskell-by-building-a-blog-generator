@@ -10,7 +10,6 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_learn_haskell_by_building_a_blog_generator */
-
 /* package base-4.14.1.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.14.1.0"
@@ -32,7 +31,6 @@
   (major1) == 3 && (major2) <  2 || \
   (major1) == 3 && (major2) == 2 && (minor) <= 4)
 #endif /* MIN_TOOL_VERSION_alex */
-
 /* tool gcc-14.0.0 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "14.0.0"
@@ -43,7 +41,6 @@
   (major1) == 14 && (major2) <  0 || \
   (major1) == 14 && (major2) == 0 && (minor) <= 0)
 #endif /* MIN_TOOL_VERSION_gcc */
-
 /* tool ghc-8.10.4 */
 #ifndef TOOL_VERSION_ghc
 #define TOOL_VERSION_ghc "8.10.4"
@@ -54,7 +51,6 @@
   (major1) == 8 && (major2) <  10 || \
   (major1) == 8 && (major2) == 10 && (minor) <= 4)
 #endif /* MIN_TOOL_VERSION_ghc */
-
 /* tool ghc-pkg-8.10.4 */
 #ifndef TOOL_VERSION_ghc_pkg
 #define TOOL_VERSION_ghc_pkg "8.10.4"
@@ -65,7 +61,6 @@
   (major1) == 8 && (major2) <  10 || \
   (major1) == 8 && (major2) == 10 && (minor) <= 4)
 #endif /* MIN_TOOL_VERSION_ghc_pkg */
-
 /* tool haddock-2.24.0 */
 #ifndef TOOL_VERSION_haddock
 #define TOOL_VERSION_haddock "2.24.0"
@@ -76,7 +71,6 @@
   (major1) == 2 && (major2) <  24 || \
   (major1) == 2 && (major2) == 24 && (minor) <= 0)
 #endif /* MIN_TOOL_VERSION_haddock */
-
 /* tool happy-1.19.9 */
 #ifndef TOOL_VERSION_happy
 #define TOOL_VERSION_happy "1.19.9"
@@ -87,7 +81,6 @@
   (major1) == 1 && (major2) <  19 || \
   (major1) == 1 && (major2) == 19 && (minor) <= 9)
 #endif /* MIN_TOOL_VERSION_happy */
-
 /* tool hpc-0.68 */
 #ifndef TOOL_VERSION_hpc
 #define TOOL_VERSION_hpc "0.68"
@@ -98,7 +91,6 @@
   (major1) == 0 && (major2) <  68 || \
   (major1) == 0 && (major2) == 68 && (minor) <= 0)
 #endif /* MIN_TOOL_VERSION_hpc */
-
 /* tool hsc2hs-0.68.7 */
 #ifndef TOOL_VERSION_hsc2hs
 #define TOOL_VERSION_hsc2hs "0.68.7"
@@ -109,7 +101,6 @@
   (major1) == 0 && (major2) <  68 || \
   (major1) == 0 && (major2) == 68 && (minor) <= 7)
 #endif /* MIN_TOOL_VERSION_hsc2hs */
-
 /* tool pkg-config-0.29.2 */
 #ifndef TOOL_VERSION_pkg_config
 #define TOOL_VERSION_pkg_config "0.29.2"
@@ -120,7 +111,6 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 #endif /* MIN_TOOL_VERSION_pkg_config */
-
 /* tool runghc-8.10.4 */
 #ifndef TOOL_VERSION_runghc
 #define TOOL_VERSION_runghc "8.10.4"
@@ -134,7 +124,7 @@
 
 #ifndef CURRENT_PACKAGE_KEY
 #define CURRENT_PACKAGE_KEY "learn-haskell-by-building-a-blog-generator-0.1.0.0-inplace"
-#endif /* CURRENT_PACKAGE_KEY */
+#endif /* CURRENT_packageKey */
 #ifndef CURRENT_COMPONENT_ID
 #define CURRENT_COMPONENT_ID "learn-haskell-by-building-a-blog-generator-0.1.0.0-inplace"
 #endif /* CURRENT_COMPONENT_ID */
